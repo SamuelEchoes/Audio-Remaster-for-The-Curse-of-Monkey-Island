@@ -9,7 +9,7 @@ remasters the voices and the audio of the videos.
 It **does not include any audio**. It builds the new audio on your computer from **your own copy of the game** and the
 FLAC soundtrack published by Mixnmojo, which it downloads for you.
 
-**[Download the latest version](../../releases/latest)** (one file: `Audio Remaster for The Curse of Monkey Island.exe`, Windows 64-bit).
+**[Download the latest version](../../releases/latest)** (one file: `Audio-Remaster-for-The-Curse-of-Monkey-Island.exe`, Windows 64-bit).
 
 ## What it does
 
@@ -37,7 +37,7 @@ FLAC soundtrack published by Mixnmojo, which it downloads for you.
 ## How to use
 
 1. Close ScummVM / RetroArch.
-2. Run `Audio Remaster for The Curse of Monkey Island.exe`.
+2. Run `Audio-Remaster-for-The-Curse-of-Monkey-Island.exe`.
 3. Select the game folder, choose where to download the soundtrack from, and follow the steps.
 4. It takes 10 to 40 minutes depending on the computer. **The game is not modified until all the new audio has been
    built and validated**; if something fails or you cancel, the game stays as it was.
@@ -62,8 +62,8 @@ go back. The ScummVM setting added by the installer is removed too.
 ### Windowless mode (optional)
 
 ```
-"Audio Remaster for The Curse of Monkey Island.exe" --auto "<game folder>" --zip "<soundtrack.zip>" --en
-"Audio Remaster for The Curse of Monkey Island.exe" --auto "<game folder>" --uninstall --en
+"Audio-Remaster-for-The-Curse-of-Monkey-Island.exe" --auto "<game folder>" --zip "<soundtrack.zip>" --en
+"Audio-Remaster-for-The-Curse-of-Monkey-Island.exe" --auto "<game folder>" --uninstall --en
 ```
 
 The result is written to `COMI Audio Remaster - automatic report.txt`, next to the program.

@@ -5,7 +5,7 @@
 # Public License as published by the Free Software Foundation, either version 3 of the License, or (at your
 # option) any later version. It is distributed WITHOUT ANY WARRANTY; see the LICENSE file for details.
 
-"""Arma "Audio Remaster for The Curse of Monkey Island.exe" (un solo archivo) con PyInstaller y lo deja en dist\\.
+"""Arma "Audio-Remaster-for-The-Curse-of-Monkey-Island.exe" (un solo archivo) con PyInstaller y lo deja en dist\\.
 
 Uso, con un Python 3.10 que tenga lo de requirements.txt:   python armar_exe.py
 Tarda unos 2 minutos. El registro queda en build.log.
@@ -16,7 +16,7 @@ import sys
 
 I = os.path.dirname(os.path.abspath(__file__))
 os.chdir(I)
-NOMBRE = 'Audio Remaster for The Curse of Monkey Island'
+NOMBRE = 'Audio-Remaster-for-The-Curse-of-Monkey-Island'
 PERFIL = os.path.join(I, 'comi', 'motor', 'perfil_mejora.json')
 cmd = [sys.executable, '-m', 'PyInstaller', '--noconfirm', '--clean', '--onefile', '--windowed', '--specpath', 'build',
        '--icon', os.path.join(I, 'datos', 'calavera.ico'),

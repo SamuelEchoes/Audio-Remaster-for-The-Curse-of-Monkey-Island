@@ -9,7 +9,7 @@ juega con **ScummVM**. Reemplaza la música comprimida del juego por la **banda 
 **No incluye audio.** Genera el audio nuevo en su equipo a partir de **su propia copia del juego** y de la banda de sonido
 en FLAC publicada por Mixnmojo, que el instalador descarga.
 
-**[Descargar la última versión](../../releases/latest)** (un solo archivo: `Audio Remaster for The Curse of Monkey Island.exe`, Windows de 64 bits).
+**[Descargar la última versión](../../releases/latest)** (un solo archivo: `Audio-Remaster-for-The-Curse-of-Monkey-Island.exe`, Windows de 64 bits).
 
 ## Qué hace
 
@@ -38,7 +38,7 @@ en FLAC publicada por Mixnmojo, que el instalador descarga.
 ## Modo de uso
 
 1. Cierre ScummVM / RetroArch.
-2. Abra `Audio Remaster for The Curse of Monkey Island.exe`.
+2. Abra `Audio-Remaster-for-The-Curse-of-Monkey-Island.exe`.
 3. Indique la carpeta del juego, elija desde dónde descargar la banda de sonido y siga los pasos.
 4. El proceso demora entre 10 y 40 minutos según el equipo. **El juego no se modifica hasta que todo el audio nuevo está
    generado y validado**; si algo falla o se cancela, queda como estaba.
@@ -63,8 +63,8 @@ También se quita el ajuste de ScummVM que haya agregado el instalador.
 ### Modo sin ventana (opcional)
 
 ```
-"Audio Remaster for The Curse of Monkey Island.exe" --auto "<carpeta del juego>" --zip "<banda.zip>"
-"Audio Remaster for The Curse of Monkey Island.exe" --auto "<carpeta del juego>" --desinstalar
+"Audio-Remaster-for-The-Curse-of-Monkey-Island.exe" --auto "<carpeta del juego>" --zip "<banda.zip>"
+"Audio-Remaster-for-The-Curse-of-Monkey-Island.exe" --auto "<carpeta del juego>" --desinstalar
 ```
 
 El resultado se escribe en `COMI Audio Remaster - informe automatico.txt`, junto al programa (con `--en`, en inglés).
