@@ -18,7 +18,7 @@ en FLAC publicada por Mixnmojo, que el instalador descarga.
   juego). No altera la música del juego: ninguna pista se cambia por otra versión porque suene mejor.
   La música que no está en el disco se **remasteriza digitalmente** a partir del audio del juego: reducción del ruido del
   códec y regeneración de los agudos, calibradas con los temas que sí están en el disco, para que suene pareja con el resto.
-- **Voces:** las 8.490 frases (en castellano o en inglés) se **remasterizan digitalmente**: reducción del ruido del códec,
+- **Voces:** las 8.490 frases se **remasterizan digitalmente**: reducción del ruido del códec,
   suavizado de las eses y regeneración de los agudos, a 44,1 kHz.
 - **Videos:** se usa la banda de sonido sin pérdida donde la música coincide; las voces y los efectos se remasterizan
   digitalmente con el mismo método. Los videos no se modifican: ScummVM reproduce un archivo `.ogg` aparte, junto a cada
@@ -27,8 +27,8 @@ en FLAC publicada por Mixnmojo, que el instalador descarga.
 
 ## Requisitos
 
-- El juego original, **versión CD de Windows**, en **castellano o inglés**. Otros idiomas se aceptan si la música es la
-  original conocida; las voces y los videos se procesan con el mismo método.
+- El juego original, **versión CD de Windows**. Lo más probable es que funcione con cualquier idioma, pero solo se probó
+  con las versiones en **castellano e inglés**.
 - **ScummVM**, o RetroArch con el núcleo ScummVM. El parche está pensado solo para ScummVM, no para el ejecutable original
   del juego de 1997.
 - La **banda de sonido en FLAC publicada por Mixnmojo** (1,2 GB). El instalador la descarga desde Mixnmojo o desde

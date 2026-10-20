@@ -18,7 +18,7 @@ FLAC soundtrack published by Mixnmojo, which it downloads for you.
   music is not changed: no track is swapped for a different version because it sounds better.
   Music that is not on the album is **digitally remastered** from the game audio: codec noise reduction and restored high
   frequencies, calibrated against the tracks that are on the album, so it matches the rest.
-- **Voices:** all 8,490 voice lines (Spanish or English) are **digitally remastered**: codec noise reduction, de-essing
+- **Voices:** all 8,490 voice lines are **digitally remastered**: codec noise reduction, de-essing
   and restored high frequencies, at 44.1 kHz.
 - **Videos:** the lossless soundtrack is used wherever the music matches; voices and effects are digitally remastered with
   the same method. The video files themselves are not modified: ScummVM plays a separate `.ogg` file next to each video.
@@ -26,8 +26,8 @@ FLAC soundtrack published by Mixnmojo, which it downloads for you.
 
 ## Requirements
 
-- The original game, **Windows CD version**, in **Spanish or English**. Other languages are accepted if the music is the
-  known original one; voices and videos are processed with the same method.
+- The original game, **Windows CD version**. It will most likely work with any language version, but it has only been
+  tested with the **English and Spanish** versions.
 - **ScummVM**, or RetroArch with the ScummVM core. This patch is meant for ScummVM only; it is not intended for the
   game's original 1997 executable.
 - The **FLAC soundtrack published by Mixnmojo** (1.2 GB). The installer downloads it from Mixnmojo or from the Internet
