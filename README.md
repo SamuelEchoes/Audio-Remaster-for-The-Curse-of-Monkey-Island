@@ -1,6 +1,6 @@
-# Remasterización de audio para The Curse of Monkey Island
+# Audio Remaster for The Curse of Monkey Island
 
-**Audio remaster for The Curse of Monkey Island** · *Castellano: ver [LEEME.md](LEEME.md).*
+*Castellano: ver [LEEME.md](LEEME.md).*
 
 A fan-made installer that gives **The Curse of Monkey Island** (LucasArts, 1997) high quality audio when played with
 **ScummVM**. It replaces the game's compressed music with the **official soundtrack in lossless quality**, and digitally
