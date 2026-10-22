@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/logo.png" alt="The Curse of Monkey Island" width="480"></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/logo-dark.png"><img src="docs/logo-light.png" alt="The Curse of Monkey Island" width="480"></picture></p>
 
 # Remasterización de audio para The Curse of Monkey Island
 
