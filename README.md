@@ -113,6 +113,7 @@ The code comments and messages are mostly in Spanish.
 - **[ScummVM](https://www.scummvm.org/):** the readers for the game's `.BUN` audio files and the video audio are
   translations to Python of ScummVM code (GPL v3 or later), and the knowledge of the formats comes from its source.
   ScummVM is the legal property of its developers.
+- **Logo** of The Curse of Monkey Island: from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thecurseofmonkeyisland-logo.svg) (public domain; trademark of Lucasfilm).
 - Developed by **SamuelEchoes**.
 
 ## License

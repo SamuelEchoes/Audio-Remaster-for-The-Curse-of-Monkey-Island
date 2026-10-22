@@ -112,6 +112,7 @@ archivos de trabajo del autor, que incluyen audio del juego y no se publican) y 
 - **[ScummVM](https://www.scummvm.org/):** los lectores de los archivos de audio `.BUN` y del audio de los videos son
   traducciones a Python de código de ScummVM (GPL v3 o posterior), y el conocimiento de los formatos sale de su código.
   ScummVM es propiedad de sus desarrolladores.
+- **Logo** de The Curse of Monkey Island: de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Thecurseofmonkeyisland-logo.svg) (dominio público; marca registrada de Lucasfilm).
 - Desarrollado por **SamuelEchoes**.
 
 ## Licencia
