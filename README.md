@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/logo.png" alt="The Curse of Monkey Island" width="480"></p>
+
 # Audio Remaster for The Curse of Monkey Island
 
 *Castellano: ver [LEEME.md](LEEME.md).*

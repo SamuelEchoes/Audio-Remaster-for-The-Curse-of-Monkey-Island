@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/logo.png" alt="The Curse of Monkey Island" width="480"></p>
+
 # Remasterización de audio para The Curse of Monkey Island
 
 *English: see [README.md](README.md).*
