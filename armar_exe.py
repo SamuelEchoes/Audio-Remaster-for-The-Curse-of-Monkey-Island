@@ -19,7 +19,7 @@ os.chdir(I)
 NOMBRE = 'Audio-Remaster-for-The-Curse-of-Monkey-Island'
 PERFIL = os.path.join(I, 'comi', 'motor', 'perfil_mejora.json')
 cmd = [sys.executable, '-m', 'PyInstaller', '--noconfirm', '--clean', '--onefile', '--windowed', '--specpath', 'build',
-       '--icon', os.path.join(I, 'datos', 'calavera.ico'),
+       '--icon', os.path.join(I, 'datos', 'calavera.ico'), '--version-file', os.path.join(I, 'version_info.txt'),
        '--add-data', os.path.join(I, 'datos') + ';datos', '--collect-binaries', '_soundfile_data',
        '--paths', os.path.join(I, 'comi', 'motor'), '--add-data', PERFIL + ';comi/motor', '--add-data', PERFIL + ';.'] + \
       sum((['--hidden-import', m] for m in ('bun', 'build_bun', 'build_video', 'deess', 'enhance', 'match', 'san_audio')), []) + \

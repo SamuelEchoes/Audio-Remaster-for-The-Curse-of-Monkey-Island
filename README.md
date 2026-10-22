@@ -96,7 +96,9 @@ venv\Scripts\pip install -r requirements.txt
 venv\Scripts\python armar_exe.py
 ```
 
-The program is left in `dist\`. To run it without building: `venv\Scripts\python app_reconstruye.py`.
+The program is left in `dist\`. The published `.exe` is built with a PyInstaller bootloader compiled from source (MinGW-w64 gcc,
+`python ./waf all --gcc` in PyInstaller's `bootloader` folder), which reduces antivirus false positives; the stock
+PyInstaller works too. To run it without building: `venv\Scripts\python app_reconstruye.py`.
 
 Layout: `comi\` (interface, game detection, install and uninstall), `comi\motor\` (the audio processing), `datos\`
 (fingerprints of the known game files, the recipe of which album track matches each game track, and the reference

@@ -1,0 +1,20 @@
+# Datos de version que Windows muestra en Propiedades -> Detalles (los usa armar_exe.py con --version-file).
+VSVersionInfo(
+  ffi=FixedFileInfo(filevers=(1, 0, 0, 0), prodvers=(1, 0, 0, 0), mask=0x3f, flags=0x0, OS=0x40004,
+                    fileType=0x1, subtype=0x0, date=(0, 0)),
+  kids=[
+    StringFileInfo([
+      StringTable('040904B0', [
+        StringStruct('CompanyName', 'SamuelEchoes'),
+        StringStruct('FileDescription', 'Audio Remaster for The Curse of Monkey Island - installer'),
+        StringStruct('FileVersion', '1.0.0.0'),
+        StringStruct('InternalName', 'Audio-Remaster-for-The-Curse-of-Monkey-Island'),
+        StringStruct('LegalCopyright', 'Copyright (C) 2026 SamuelEchoes. GNU GPL v3 or later.'),
+        StringStruct('OriginalFilename', 'Audio-Remaster-for-The-Curse-of-Monkey-Island.exe'),
+        StringStruct('ProductName', 'Audio Remaster for The Curse of Monkey Island'),
+        StringStruct('ProductVersion', '1.0.0.0'),
+        StringStruct('Comments', 'https://github.com/SamuelEchoes/Audio-Remaster-for-The-Curse-of-Monkey-Island')])
+    ]),
+    VarFileInfo([VarStruct('Translation', [0x0409, 1200])])
+  ]
+)
